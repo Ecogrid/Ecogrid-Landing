@@ -1,4 +1,4 @@
 ---
-name: Wooly McBaa
-image: /images/wooly.jpg
+name: Carlos Garcia
+image: /images/wavy.jpg
 ---
