@@ -2,13 +2,13 @@
 # Site
 
 title: Cause Template
-url: https://clean-oryx.cloudvent.net
+url: 
 baseurl:
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Jekyll template with example content for a not-for-profit organisation.
+description: Servicios Energeticos para empresa.
 author:
   name:
   email:
@@ -16,7 +16,7 @@ author:
 social:
   name: Cause Template
   links:
-    - https://github.com/CloudCannon/cause-jekyll-template
+    
 
 # -----
 # Build
