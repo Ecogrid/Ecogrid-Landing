@@ -426,6 +426,9 @@ nav .container {
   @media (max-width: 768px) {
 	.hamburger-menu {
 	  display: block;
+	  border: 1px solid #888;
+      border-radius: 7px;
+      color: #888;
 	}
 	
 	.nav-links {
@@ -441,7 +444,15 @@ nav .container {
 	
 	/* Al abrir el menú, mostrarlo */
 	.nav-links.open {
-	  display: flex;
+		background: #f8fafb;
+	  	display: flex;
+		z-index: 2;
+		margin: 10px;
+		text-align: center;
+		padding: 10px 50px;
+		a{
+			margin:0
+		}
 	}
   }
   
