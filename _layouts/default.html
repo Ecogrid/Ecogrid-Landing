@@ -55,19 +55,19 @@
 				</div>
 
 				<div class="sharing">
-					{% if site.data.company.facebook != '' %}
+					{% if site.data.company.facebook | strip != '' %}
 						<a class="facebook" href="https://www.facebook.com/{{ site.data.company.facebook }}">
 							{% include icons/social-media.html social_icon="facebook" %}
 						</a>
 					{% endif %}
 
-					{% if site.data.company.linkedin != '' %}
+					{% if site.data.company.linkedin | strip != '' %}
 						<a class="linkedin" href="https://linkedin.com/{{ site.data.company.linkedin }}">
 							{% include icons/social-media.html social_icon="linkedin" %}
 						</a>
 					{% endif %}
 
-					{% if site.data.company.youtube != '' %}
+					{% if site.data.company.youtube | strip != '' %}
 						<a class="youtube" href="https://youtube.com/{{ site.data.company.youtube }}">
 							{% include icons/social-media.html social_icon="youtube" %}
 						</a>
