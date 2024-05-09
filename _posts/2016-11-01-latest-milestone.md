@@ -1,7 +1,7 @@
 ---
-title: We've raised $2000!
-author_staff_member: wooly-mcbaa
-date: 2016-11-01
-featured_image: https://unsplash.it/570/400?image=1080
+title: Huella de Carbono
+author_staff_member: Sergio
+date: 2024-05-02
+featured_image: /images/huellaco2.jpg
 ---
-Thank you do everyone who has made contributions. This money is going towards reaching sheep in paddocks far and wide. The revolution has begun.
+La huella de carbono mide los gases de efecto invernadero (GEI) que produce la acción empresarial, tanto su actividad directa, como indirecta. Este dato se expresa en toneladas de CO2 equivalentes. Es vital reducirla y compensarla para luchar contra el cambio climático.
