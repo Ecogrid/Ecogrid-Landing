@@ -65,8 +65,7 @@ form {
 
 
 		&, &:focus {
-			border-top-left-radius: 30px;
-			border-bottom-left-radius: 30px;
+			border-radius: 30px;
 		}
 
 		&:focus {
@@ -76,8 +75,7 @@ form {
 	}
 
 	input[type="submit"] {
-		border-top-right-radius: 30px;
-		border-bottom-right-radius: 30px;
+		border-radius: 30px;
 
 		&:hover {
 			background: darken($brand-color, 5%);
