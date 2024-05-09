@@ -31,6 +31,15 @@ header {
 			}
 		}
 	}
+	
+	@media (max-width: 768px) {
+		.column {
+			img {
+				max-width: 100%;
+				width: auto;
+			}
+		}
+	}
 
 	img {
 		margin: 100px auto 0 auto;
@@ -369,6 +378,10 @@ footer {
 	}
 }
 
+.text-right{
+	text-align: right;
+}
+
 
 
 
@@ -402,8 +415,11 @@ nav .container {
 		font-size: 1.2em;
 		color: #888;
 		font-weight: bold;
+		margin-left: 15px;
 	}
-	a:hover{text-decoration: underline; color:#000}
+	a:hover{
+		color:#000
+	}
   }
   
   /* Comportamiento del menú en dispositivos móviles */
