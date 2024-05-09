@@ -33,7 +33,7 @@
 			<p class="editor-link" style="margin-bottom: 20px;"><a href="cloudcannon:collections/_data/company.yml" class="btn"><strong>&#9998;</strong> Update footer</a></p>
 			<div class="container">
 				<div class="about">
-					<p>{{ site.data.company.mission_statement }}</p>
+					<p>Ecogrid Energia</p>
 				</div>
 
 				<div class="contact">
@@ -55,19 +55,22 @@
 				</div>
 
 				<div class="sharing">
-					{% if site.data.company.facebook | strip != '' %}
+					{% assign facebook_stripped = site.data.company.facebook | strip %}
+					{% if facebook_stripped != "" %}
 						<a class="facebook" href="https://www.facebook.com/{{ site.data.company.facebook }}">
 							{% include icons/social-media.html social_icon="facebook" %}
 						</a>
 					{% endif %}
 
-					{% if site.data.company.linkedin | strip != '' %}
+					{% assign linkedin_stripped = site.data.company.linkedin | strip %}
+					{% if linkedin_stripped != "" %}
 						<a class="linkedin" href="https://linkedin.com/{{ site.data.company.linkedin }}">
 							{% include icons/social-media.html social_icon="linkedin" %}
 						</a>
 					{% endif %}
 
-					{% if site.data.company.youtube | strip != '' %}
+					{% assign youtube_stripped = site.data.company.youtube | strip %}
+					{% if youtube_stripped != "" %}
 						<a class="youtube" href="https://youtube.com/{{ site.data.company.youtube }}">
 							{% include icons/social-media.html social_icon="youtube" %}
 						</a>

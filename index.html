@@ -38,7 +38,7 @@ title: Ecogrid Energia
 		<li>
 			<div class="image">{% include icons/site.html icon="conditions" %}</div>
 			<h3 class="editable">Impacto</h3>
-			<p class="editable">Modela tu huella de carbono en el entorno</p>
+			<p class="editable">Modela tu huella de carbono en el entorno.</p>
 		</li>
 	</ul>
 </div>
@@ -58,6 +58,9 @@ title: Ecogrid Energia
 
 <div class="container">
 	<hr>
+</div>
+
+<div class="container">
 	<blockquote>
 		<p class="quote editable">Los certificados de ahorro energetico me han solucionado parte de mi inversión económica, junto con el propio ahorro de la actuación, he conseguido bajar el impacto ecológico y económico de mi casa.</p>
 		<div class="attribute">
@@ -73,9 +76,9 @@ title: Ecogrid Energia
 	<div id="contacto" class="container">
 		<h2 class="editable">Contáctanos</h2>
 		<p class="editable" style="text-align: center;">Dejanos tus datos y nos pondremos en contacto contigo lo antes posible.</p>
-		<form action="{{ site.newsletter_action }}" method="post">
-			<input type="text" name="nombre" placeholder="Nombre *"><br/>
-			<input type="text" name="email" placeholder="Email *"><br/>
+		<form action="" method="post">
+			<input type="text" name="nombre" required placeholder="Nombre *"><br/>
+			<input type="text" name="email" required placeholder="Email *"><br/>
 			<input type="text" name="telefono" placeholder="Teléfono"><br/>
 			<input type="text" name="kw" placeholder="KWS"><br/>
 			<input type="submit" value="Enviar"/>
@@ -83,7 +86,9 @@ title: Ecogrid Energia
 	</div>
 </div>
 
-<hr>
+<div class="container">
+	<hr>
+</div>
 
 <div class="darker">
 	<div class="container">
