@@ -24,6 +24,14 @@
 		<nav>
 			<div class="container">
 				<a href="{{ site.baseurl }}">{% include logo.html %}</a>
+				<!-- Botón del menú de hamburguesa -->
+				<button class="hamburger-menu" id="menu-toggle">&#9776;</button>
+				<!-- Lista de enlaces para el menú -->
+				<ul class="nav-links" id="nav-links">
+				  <li><a href="#acercade">Acerca de</a></li>
+				  <li><a href="#servicios">Servicios</a></li>
+				  <li><a href="#contacto">Contacto</a></li>
+				</ul>
 			</div>
 		</nav>
 		<div class="content">
@@ -89,6 +97,10 @@
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
 				}
+			});
+			// Agregar un evento de clic al botón de menú para mostrar/ocultar el menú
+			document.getElementById("menu-toggle").addEventListener("click", function() {
+				document.getElementById("nav-links").classList.toggle("open");
 			});
 		</script>
 	</body>
