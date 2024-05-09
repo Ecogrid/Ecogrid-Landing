@@ -53,16 +53,15 @@ section {
 }
 
 form {
-	display: flex;
 	max-width: 500px;
 	margin: 0 auto;
+	text-align: center;
 
 	input[type="text"] {
 		flex-grow: 1;
-		flex-shrink: 1;
-		width: 100%;
+		flex-shrink: 1;		
 		border: 1px solid #ddd;
-
+		margin-bottom: 20px;
 
 		&, &:focus {
 			border-radius: 30px;
